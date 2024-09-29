@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>welcomeScreen</class>
+ <widget class="QDialog" name="welcomeScreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Welcome!</string>
+  </property>
+  <widget class="QLabel" name="welcomeText">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>130</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ravie</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Welcome!</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="continueButton">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>370</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Continue</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="gameDescription">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>40</y>
+     <width>341</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Welcome to Untitled Logic Gate Game!
+This game aims to teach you about basic digital logic.
+Digital logic consists of connecting inputs and outputs. In between them is a series of gates that manipulate the inputs into the desired outputs. A 1 represents an active input, while a 0 represents an inactive input. An “on” input will be light green, while an &quot;off&quot; input will be dark red.
+
+In this game you will have to use logic gates to manipulate inputs to give the desired output.
+
+Good Luck! </string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="controlDescription">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>341</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To operate our game:&lt;/p&gt;&lt;p&gt;Click on one of the buttons on the top right to select a gate, and drag it into the box.&lt;/p&gt;&lt;p&gt;Click on one of the input ‘+’ buttons, and drag to to a gate button to connect an input to a gate.&lt;/p&gt;&lt;p&gt;To connect a gate to an output, click on a ‘+’ button on the right side of the gate and drag to an output.&lt;/p&gt;&lt;p&gt;To delete a gate, right click on it, while you do not have it selected.  To delete an existing connection, click on both of the input/output ports it connects.&lt;/p&gt;&lt;p&gt;To delete an existing connection, drag the same connection again and it will dissapear.&lt;/p&gt;&lt;p&gt;For each level, we will give instructions/tips, but the main thing you should look at is the truth table.&lt;/p&gt;&lt;p&gt;It will show you what input combinations, manipulated by your gates, should yield which outputs. For example, you will have to figure out what gates will make a 0, 0 input yield a 1 output.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
